@@ -1,5 +1,7 @@
 import * as emberA11yTesting from "./lib/index.js";
 
+const { rules } = emberA11yTesting.default;
+
 export default [
   {
     languageOptions: {
@@ -21,9 +23,9 @@ export default [
       },
     },
     rules: {
-      "ember-a11y-testing/a11y-audit-after-test-helper": "error",
-      "ember-a11y-testing/a11y-audit-no-expression": "error",
-      "ember-a11y-testing/a11y-audit-no-globals": "error",
+      "ember-a11y-testing/a11y-audit-after-test-helper": rules["a11y-audit-after-test-helper"],
+      "ember-a11y-testing/a11y-audit-no-expression": rules["a11y-audit-no-expression"],
+      "ember-a11y-testing/a11y-audit-no-globals": rules["a11y-audit-no-globals"],
     },
   },
 ];
