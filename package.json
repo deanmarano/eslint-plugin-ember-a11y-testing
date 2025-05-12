@@ -39,6 +39,7 @@
   "files": [
     "README.md",
     "lib/**/*.js",
+    "lib/**/*.mjs",
     "recommended.mjs",
     "package.json"
   ],
