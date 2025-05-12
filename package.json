@@ -12,7 +12,7 @@
   "main": "lib/index.js",
   "exports": {
     ".": "./lib/index.js",
-    "./recommended": "./lib/configs/recommended.js"
+    "./recommended": "./lib/recommended.mjs"
   },
   "scripts": {
     "lint": "eslint --config eslint.config.mjs .",
