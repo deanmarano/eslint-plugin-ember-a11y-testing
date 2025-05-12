@@ -1,6 +1,6 @@
-import * as emberA11yTesting from "./lib/index.js";
+import emberA11yTesting from "./lib/index.js";
 
-const { rules } = emberA11yTesting.default;
+const { rules } = emberA11yTesting;
 
 export default [
   {
